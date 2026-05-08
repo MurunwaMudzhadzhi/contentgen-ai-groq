@@ -14,9 +14,9 @@ cp .env.example .env
 ```
 Edit `.env` and set your key:
 ```
-ANTHROPIC_API_KEY=sk-ant-your-key-here
+GROQ_API_KEY=sk-ant-your-key-here
 ```
-Get a key at → https://console.anthropic.com
+Get a key at → https://console.groq.com
 
 ### 2. Start the server
 ```bash

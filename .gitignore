@@ -1,0 +1,25 @@
+# ── Environment (never commit secrets)
+.env
+.env.test
+*.env
+node_modules
+
+# ── Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS
+.DS_Store
+Thumbs.db
+
+# ── Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Build artifacts
+dist/
+build/
